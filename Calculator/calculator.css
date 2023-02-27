@@ -1,25 +1,63 @@
-.container{
-    background-color: blue;
-    width: max-content;
-    margin: auto;
-}
-
-.display{
-    width: 100%;
+.calculator{
+    width: 200px;
     height: 50px;
-    background-color: blanchedalmond;
 
     display: flex;
     justify-content: flex-end; 
     align-items: center; /*vertically centers text */
+
+    background-color: white;
+    border-style: solid;
+    border-width: 1px; 
 }
 
 .buttons{
-    display: flex;
-    /* flex-wrap: wrap; */
-}
-
-.line-2{
+    width: 200px;
+    height: 200px;
     display: flex;
     flex-wrap: wrap;
-} /*not working at the momnet. will come back */
+
+    background-color: white;
+    border-style: solid;
+    border-width: 1px; 
+}
+
+.clear{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+    border-style: solid;
+    border-width: 1px; 
+
+}
+
+.btn-operator{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+    border-style: solid;
+    border-width: 1px; 
+    
+}
+
+.btn-number{
+    width: 50px;
+
+    background-color: white;
+    border-style: solid;
+    border-width: 1px; 
+}
+
+.btn-zero{
+    width: 100px;
+
+    background-color: white;
+    border-style: solid;
+    border-width: 1px; 
+}
